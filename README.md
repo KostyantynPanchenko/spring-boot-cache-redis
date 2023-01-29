@@ -5,15 +5,15 @@
 * Start up local Redis `docker run --name local-redis -p 6379:6379 --rm redis:7.0.8`
 * Start the app `./gradlew bootRun`
 * Play with GET and POST request, observe execution time
-```curl
+```shell
 curl -v http://localhost:8080/api/players/23
-* ```
-```curl
+```
+```shell
 curl -v  http://localhost:8080/api/players -H "Content-Type: application/json" -d "{\"id\":101, \"firstName\":\"Michael\", \"lastName\":\"Jordan\"}"
-* ```
-```curl
+```
+```shell
 curl -v http://localhost:8080/api/players/101
-* ```
+```
 
 ### Reference Documentation
 For further reference, please consider the following sections:
