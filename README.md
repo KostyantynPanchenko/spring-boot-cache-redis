@@ -18,6 +18,7 @@ curl -v http://localhost:8080/api/players/101
 ### Reference Documentation
 For further reference, please consider the following sections:
 
+* [curl tutorial](https://curl.se/docs/manual.html)
 * [Spring Cache Abstraction [current]](https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#cache)
 * [Spring Cache abstraction [3.0.2]](https://docs.spring.io/spring-boot/docs/3.0.2/reference/htmlsingle/#io.caching)
 * [Redis at DockerHub](https://hub.docker.com/_/redis)
@@ -34,3 +35,8 @@ The following guides illustrate how to use some features concretely:
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+
+### Videos
+
+* [Spring Tips: Better Data-Driven Applications with Spring Boot and Redis](https://www.youtube.com/watch?v=Yq8Cc7eOgF8) 28:30
+* [Spring Tips: Redis](https://www.youtube.com/watch?v=_M8xoagybzU) 1:07:40
